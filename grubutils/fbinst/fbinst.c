@@ -3305,10 +3305,10 @@ main (int argc, char **argv)
   int i;
   xd_t* xd;
 
-  assert (sizeof (time_t) == 4);
-  assert (sizeof (struct fb_mbr) == 512);
-  assert (sizeof (struct fat_bs16) == 512);
-  assert (sizeof (struct fat_bs32) == 512);
+  // assert (sizeof (time_t) == 4);
+  // assert (sizeof (struct fb_mbr) == 512);
+  // assert (sizeof (struct fat_bs16) == 512);
+  // assert (sizeof (struct fat_bs32) == 512);
 
   for (i = 1; i < argc; i++)
     {
